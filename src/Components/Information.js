@@ -77,7 +77,6 @@ const Information = (props) => {
   value={formValue.number}
   placeholder="Phone Number"
   onChange={(phone)=>handlePhoneNumber(phone)}
-  defaultValue={formValue.number}
 />
 
         <TextField
